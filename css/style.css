@@ -1,0 +1,44 @@
+body {
+	font-family: Raleway;
+	margin: 0;
+	padding: 0;
+}
+.finished p {
+	text-decoration: line-through;
+}
+.panel {
+	height: 500px;
+	overflow-y: auto;
+}
+.navbar {
+	background-color: #2874f0;
+	border-radius: 0;
+	border: 0px;
+	color: white;
+}
+.navbar-toggle .icon-bar {
+	background-color: white;
+}
+a {
+	color: white;
+}
+.navbar .logo {
+	font-weight: bold;
+}
+.dropdown-toggle {
+	color: white;
+}
+
+.btn {
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+ul {
+	list-style-type: decimal;
+}
+p {
+	margin-top: 10px;
+	word-wrap:break-word;
+	font-weight: bold;
+}
