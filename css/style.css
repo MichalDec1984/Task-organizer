@@ -11,7 +11,9 @@ body {
 	overflow-y: auto;
 	color: black;
 }
-
+.panel-heading {
+	font-weight: bold;
+}
 .navbar {
 	background-color: #2874f0;
 	border-radius: 0;
@@ -39,8 +41,10 @@ a {
 ul {
 	list-style-type: decimal;
 }
-p {
-	margin-top: 10px;
+ul li p {
+	margin-top: 20px;
+	margin-bottom: 15px;
 	word-wrap:break-word;
-	font-weight: bold;
+	color: #555;
+	font-size: 16px;
 }
