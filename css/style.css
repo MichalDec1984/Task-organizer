@@ -9,7 +9,9 @@ body {
 .panel {
 	height: 500px;
 	overflow-y: auto;
+	color: black;
 }
+
 .navbar {
 	background-color: #2874f0;
 	border-radius: 0;

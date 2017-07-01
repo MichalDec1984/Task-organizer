@@ -33,7 +33,9 @@ document.addEventListener("DOMContentLoaded", function() {
 			});
 			deleteButton.addEventListener("click", function() {
 				taskList.removeChild(this.parentNode);
-				panelText.style.display = "initial";
+				if (taskList.getElementsByTagName('li').length == 0) {
+	 				panelText.style.display = "initial"
+	 			}		
 			});
 		} 	else {
 				alert("The entry must have more than 5 and less than 500 characters!");
@@ -44,9 +46,8 @@ document.addEventListener("DOMContentLoaded", function() {
 		for (var i = 0; i<finishedTasks.length; i++) {
 			taskList.removeChild(finishedTasks[i]);
 		}
-		panelText.style.display = "initial";
+	 	if (taskList.getElementsByTagName('li').length == 0) {
+	 		panelText.style.display = "initial"
+	 	}
  	});
 });
-
-
-
